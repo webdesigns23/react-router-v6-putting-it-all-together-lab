@@ -49,9 +49,7 @@ src/
 
 You'll need to fill out these various files to get your app up and running.
 
-To start up the lab, first run `npm install`, as per usual. Then run `npm run
-server` to start your `json-server` and `npm run dev` to open the application in
-the browser.
+To start up the lab, first run `npm install`, as per usual. Then install react router: `npm install react-router-dom@6`. Then run `npm run server` to start your `json-server` and `npm run dev` to open the application in the browser.
 
 ### App.jsx
 
