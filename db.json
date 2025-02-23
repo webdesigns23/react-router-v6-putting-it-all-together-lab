@@ -1,66 +1,76 @@
 {
-    "movies": [
-        {   "id": 1,
-            "title": "Doctor Strange",
-            "time": 115,
-            "genres": ["Action", "Adventure", "Fantasy"]
-        },
-        {
-            "id": 2,
-            "title": "Trolls",
-            "time": 92,
-            "genres": ["Animation", "Adventure", "Comedy", "Family", "Fantasy"]
-        },
-        {
-            "id": 3,
-            "title": "Jack Reacher: Never Go Back",
-            "time": 118,
-            "genres": ["Action", "Adventure", "Crime", "Mystery", "Thriller"]
-        }
-    ],
-
-    "actors": [
-        {
-            "id": 1,
-            "name": "Benedict Cumberbatch",
-            "movies": ["Doctor Strange", "The Imitation Game", "Black Mass"]
-        },
-        {
-            "id": 2,
-            "name": "Justin Timberlake",
-            "movies": ["Trolls", "Friends with Benefits", "The Social Network"]
-        },
-        {
-            "id": 3,
-            "name": "Anna Kendrick",
-            "movies": ["Pitch Perfect", "Into The Wood"]
-        },
-        {
-            "id": 4,
-            "name": "Tom Cruise",
-            "movies": [
-            "Jack Reacher: Never Go Back",
-            "Mission Impossible 4",
-            "War of the Worlds"
-            ]
-        }
-      ],
-
     "directors": [
         {
             "id": 1,
             "name": "Scott Derrickson",
-            "movies": ["Doctor Strange", "Sinister", "The Exorcism of Emily Rose"]
+            "movies": [
+                {
+                    "id": "8bce7a4d-4c04-40b6-a63c-e2856ac1c080", 
+                    "title": "Doctor Strange",
+                    "time": 115,
+                    "genres": ["Action", "Adventure", "Fantasy"]
+                },
+                {
+                    "id": "e6bba149-56b1-44d2-91b1-d6cad878b3c8",
+                    "title": "Sinister",
+                    "time": 110,
+                    "genres": ["Horror", "Mystery", "Thriller"]
+                },
+                {
+                    "id": "000f6c92-9534-4daf-9e6d-856b81831ed0",
+                    "title": "The Exorcism of Emily Rose",
+                    "time": 122,
+                    "genres": ["Horror", "Drama", "Thriller"]
+                }
+            ]
         },
         {
             "id": 2,
             "name": "Mike Mitchell",
-            "movies": ["Trolls", "Alvin and the Chipmunks: Chipwrecked", "Sky High"]
+            "movies": [
+                {
+                    "id": "bf932b64-35e1-42ac-81bb-3255e392c651",
+                    "title": "Trolls",
+                    "time": 92,
+                    "genres": ["Animation", "Adventure", "Comedy", "Family", "Fantasy"]
+                },
+                {
+                    "id": "0cbba11d-7112-41fa-b4eb-66d3f00ff935",
+                    "title": "Alvin and the Chipmunks: Chipwrecked",
+                    "time": 87,
+                    "genres": ["Animation", "Adventure", "Comedy", "Family", "Musical"]
+                },
+                {
+                    "id": "332a8a33-93ce-441a-8911-45637b8cc03f",
+                    "title": "Sky High",
+                    "time": 100,
+                    "genres": ["Action", "Comedy", "Family", "Sci-Fi"]
+                }
+            ]
         },
         {
             "id": 3,
             "name": "Edward Zwick",
-            "movies": ["Jack Reacher: Never Go Back", "Blood Diamond", "The Siege"]
+            "movies": [
+                {
+                    "id": "04782d55-4d43-4221-bff5-87c8c724398e",
+                    "title": "Jack Reacher: Never Go Back",
+                    "time": 118,
+                    "genres": ["Action", "Adventure", "Crime", "Mystery", "Thriller"]
+                },
+                {
+                    "id": "b891bba4-be90-4433-9b21-ce2af6e10630",
+                    "title": "Blood Diamond",
+                    "time": 143,
+                    "genres": ["Adventure", "Drama", "Thriller", "War"]
+                },
+                {
+                    "id": "06c61faf-757b-4093-953d-44e69dbbf449",
+                    "title": "The Siege",
+                    "time": 116,
+                    "genres": ["Action", "Crime", "Drama", "Thriller"]
+                }
+            ]
         }
     ]
 }

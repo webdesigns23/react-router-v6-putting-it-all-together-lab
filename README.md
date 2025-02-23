@@ -2,10 +2,11 @@
 
 ## Learning Goals
 
-- Use `createBrowserRouter` to create a client-side router.
-- Use `RouterProvider` to include the router in your app.
+- Use `BrowserRouter`, `Routes`, and `Route` components to create a client-side router.
+- Build nested routes for nested resources.
 - Use the `<NavBar>` component to allow client-side navigation.
-- Use `errorElement` to set up router error handling.
+- Create error route for any route that doesn't exist.
+- Use the `useNavigate` hook to route after creating a new record.
 
 ## Introduction
 
