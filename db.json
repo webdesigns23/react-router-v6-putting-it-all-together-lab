@@ -76,6 +76,14 @@
             "Family",
             "Sci-Fi"
           ]
+        },
+        {
+          "id": "6e29d3a7-84ba-4155-87c9-0a0612ecfe6e",
+          "title": "The Lobster",
+          "time": 102,
+          "genres": [
+            "Thriller"
+          ]
         }
       ]
     },
@@ -124,7 +132,7 @@
       "id": "1",
       "name": "Chritopher Nolan",
       "bio": "Director of mind-bending films.",
-      "movies": [       
+      "movies": [
         {
           "id": "m1",
           "title": "Inception",
@@ -132,6 +140,38 @@
           "genres": [
             "Sci-Fi",
             "Thriller"
+          ]
+        },
+        {
+          "id": "0f676e37-4cae-4c5a-9bb1-47948e7a4807",
+          "title": "Batman",
+          "time": 200,
+          "genres": [
+            "Thriller"
+          ]
+        },
+        {
+          "id": "5fa61e12-af39-4164-904d-ece711841eca",
+          "title": "The Dark Knight",
+          "time": 205,
+          "genres": [
+            "Thriller"
+          ]
+        },
+        {
+          "id": "5358e3d1-f2ea-4b3f-9271-c4bbcfd0e88f",
+          "title": "Transformers",
+          "time": 200,
+          "genres": [
+            "Comedy"
+          ]
+        },
+        {
+          "id": "57500d24-6dd5-4870-ac6b-e30b00252dc2",
+          "title": "Titanic",
+          "time": 102,
+          "genres": [
+            "Romance"
           ]
         }
       ]
